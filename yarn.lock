@@ -2899,6 +2899,13 @@
   "resolved" "https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz"
   "version" "1.0.5"
 
+"axios@^0.21.1":
+  "integrity" "sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.4.tgz"
+  "version" "0.21.4"
+  dependencies:
+    "follow-redirects" "^1.14.0"
+
 "axios@^0.26.1":
   "integrity" "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
@@ -5007,7 +5014,7 @@
   dependencies:
     "from2" "^2.1.0"
 
-"follow-redirects@^1.0.0", "follow-redirects@^1.14.8", "follow-redirects@^1.15.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.14.0", "follow-redirects@^1.14.8", "follow-redirects@^1.15.0":
   "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
   "version" "1.15.2"
@@ -9373,6 +9380,13 @@
   "integrity" "sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz"
   "version" "3.3.2"
+
+"strapi-plugin-netlify-deploy@^1.0.2":
+  "integrity" "sha512-33FO7xHUxyOaGZNvdgK4oaiEVE7rwp7bdaNn2xDuf/HFbiu+O6mGjUWZuEmzG9yQzP3qyYmf0sqe/zpK/bpP7w=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-netlify-deploy/-/strapi-plugin-netlify-deploy-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "axios" "^0.21.1"
 
 "strapi-plugin-netlify-deployments@^2.0.0":
   "integrity" "sha512-U3A66lsbze9mZSK1XlxFgKTc8yqKmAx1KHivmhx1stOmwfnucvWtuAIiDcA5GSxR9i23+IYzy5lAsu1gYZodYg=="
